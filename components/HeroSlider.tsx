@@ -7,10 +7,12 @@ import Link from "next/link";
 const banners = [
   {
     image: "/banner1.png",
+    mobileImage: "/mobilebanner1.png",
     alt: "SKYOCEAN Pure Water",
   },
   {
     image: "/banner2.png",
+    mobileImage: "/mobilebanner2.jpg",
     alt: "SKYOCEAN Premium Drinking Water",
   },
 ];
@@ -44,22 +46,44 @@ export default function HeroSlider() {
     <section className="relative w-full overflow-hidden">
 
       {/* Banner */}
-      <div className="relative w-full aspect-[16/6]">
+      <div className="relative w-full aspect-[9/16] md:aspect-[16/6]">
 
+          {/* Desktop Banner */}
         <Image
           src={banners[active].image}
           alt={banners[active].alt}
           fill
           priority
           sizes="100vw"
-          className="object-cover object-center"
+          className="hidden md:block object-cover object-center"
+        />
+
+        {/* Mobile Banner */}
+        <Image
+          src={banners[active].mobileImage}
+          alt={banners[active].alt}
+          fill
+          priority
+          sizes="100vw"
+          className="block md:hidden object-cover object-center"
         />
 
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/10" />
 
         {/* Buttons */}
-        <div className="absolute bottom-[15%] left-[10%] flex flex-wrap gap-4">
+        <div
+          className="
+          absolute
+          bottom-[8%]
+          left-1/2
+          -translate-x-1/2
+          md:left-[10%]
+          md:translate-x-0
+          md:bottom-[15%]
+          flex flex-wrap gap-4
+        "
+        >
 
           <Link
             href="#products"
