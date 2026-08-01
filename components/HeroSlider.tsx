@@ -48,7 +48,7 @@ export default function HeroSlider() {
       {/* Banner */}
       <div className="relative w-full aspect-[9/16] md:aspect-[16/6]">
 
-          {/* Desktop Banner */}
+        {/* Desktop Banner */}
         <Image
           src={banners[active].image}
           alt={banners[active].alt}
@@ -71,20 +71,8 @@ export default function HeroSlider() {
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/10" />
 
-        {/* Buttons */}
-        <div
-          className="
-          absolute
-          bottom-[8%]
-          left-1/2
-          -translate-x-1/2
-          md:left-[10%]
-          md:translate-x-0
-          md:bottom-[15%]
-          flex flex-wrap gap-4
-        "
-        >
-
+        {/* Desktop Buttons */}
+        <div className="absolute bottom-[15%] left-[10%] hidden md:flex gap-4">
           <Link
             href="#products"
             className="rounded-xl bg-sky-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-sky-700"
@@ -98,15 +86,32 @@ export default function HeroSlider() {
           >
             Contact Us
           </Link>
-
         </div>
+
+      </div>
+
+      {/* Mobile Buttons */}
+      <div className="flex md:hidden justify-center gap-3 py-4 bg-white">
+        <Link
+          href="#products"
+          className="rounded-xl bg-sky-600 px-5 py-3 font-semibold text-white"
+        >
+          Explore Products
+        </Link>
+
+        <Link
+          href="#contact"
+          className="rounded-xl border border-sky-600 px-5 py-3 font-semibold text-sky-600"
+        >
+          Contact Us
+        </Link>
       </div>
 
       {/* Previous */}
       <button
         onClick={previousSlide}
         aria-label="Previous banner"
-        className="absolute left-4 top-1/2 z-20 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-black/30 text-3xl text-white backdrop-blur-sm transition hover:bg-black/60"
+        className="absolute left-4 top-1/2 z-20 hidden md:flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-black/30 text-3xl text-white backdrop-blur-sm transition hover:bg-black/60"
       >
         ‹
       </button>
@@ -115,13 +120,13 @@ export default function HeroSlider() {
       <button
         onClick={nextSlide}
         aria-label="Next banner"
-        className="absolute right-4 top-1/2 z-20 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-black/30 text-3xl text-white backdrop-blur-sm transition hover:bg-black/60"
+        className="absolute right-4 top-1/2 z-20 hidden md:flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-black/30 text-3xl text-white backdrop-blur-sm transition hover:bg-black/60"
       >
         ›
       </button>
 
       {/* Dots */}
-      <div className="absolute bottom-4 left-1/2 z-20 flex -translate-x-1/2 gap-3">
+      <div className="absolute bottom-16 md:bottom-4 left-1/2 z-20 flex -translate-x-1/2 gap-3">
         {banners.map((_, index) => (
           <button
             key={index}
