@@ -75,7 +75,7 @@ export default function Contact() {
                 </p>
 
                 <p className="mt-1 text-lg font-medium text-gray-800">
-                  sudhirshinde@skyoceans.com
+                  sudhirshinde@skyoceans.in
                 </p>
               </div>
 

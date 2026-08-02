@@ -82,7 +82,7 @@ export default function Footer() {
                   Email:
                 </span>
                 <br />
-                sudhirshinde@skyoceans.com
+                sudhirshinde@skyoceans.in
               </p>
 
               <p>
