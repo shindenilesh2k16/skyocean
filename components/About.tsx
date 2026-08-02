@@ -27,14 +27,25 @@ export default function About() {
 
           {/* Left - Image */}
           <div className="relative overflow-hidden rounded-3xl border-4 border-sky-500 shadow-xl">
+
+            {/* Mobile Image */}
+            <img
+              src="/Aboutusmobile.png"
+              alt="SKYOCEAN Pure Water"
+              className="block md:hidden h-auto w-full rounded-3xl shadow-2xl"
+            />
+
+            {/* Desktop Image */}
             <img
               src="/Aboutus.png"
               alt="SKYOCEAN Pure Water"
-              className="h-[560px] w-full object-cover rounded-3xl shadow-2xl transition duration-500 hover:scale-[1.02]"
+              className="hidden md:block h-[560px] w-full object-cover rounded-3xl shadow-2xl transition duration-500 hover:scale-[1.02]"
             />
 
+            {/* Overlay */}
             <div className="absolute inset-0 bg-gradient-to-t from-blue-950/70 via-transparent to-transparent" />
 
+            {/* Bottom Text */}
             <div className="absolute bottom-6 left-6">
               <p className="text-2xl font-bold text-white">
                 SKYOCEAN
@@ -44,6 +55,7 @@ export default function About() {
                 Pure Water. Pure Life.
               </p>
             </div>
+
           </div>
 
           {/* Right - Content */}
@@ -67,24 +79,25 @@ export default function About() {
               to ensure a refreshing and reliable drinking experience.
             </p>
 
+            {/* Stats */}
             <div className="mt-8 grid grid-cols-3 gap-6 text-center">
 
-            <div>
-              <h4 className="text-3xl font-bold text-sky-600">100%</h4>
-              <p className="text-gray-600">Purity</p>
-            </div>
+              <div>
+                <h4 className="text-3xl font-bold text-sky-600">100%</h4>
+                <p className="text-gray-600">Purity</p>
+              </div>
 
-            <div>
-              <h4 className="text-3xl font-bold text-sky-600">ISO</h4>
-              <p className="text-gray-600">Quality Standards</p>
-            </div>
+              <div>
+                <h4 className="text-3xl font-bold text-sky-600">ISO</h4>
+                <p className="text-gray-600">Quality Standards</p>
+              </div>
 
-            <div>
-              <h4 className="text-3xl font-bold text-sky-600">24×7</h4>
-              <p className="text-gray-600">Reliable Supply</p>
-            </div>
+              <div>
+                <h4 className="text-3xl font-bold text-sky-600">24×7</h4>
+                <p className="text-gray-600">Reliable Supply</p>
+              </div>
 
-          </div>
+            </div>
 
             {/* Features */}
             <div className="mt-8 grid grid-cols-2 gap-5">
