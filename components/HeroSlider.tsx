@@ -12,7 +12,7 @@ const banners = [
   },
   {
     image: "/banner2.png",
-    mobileImage: "/mobilebanner2.jpg",
+    mobileImage: "/mobilebanner2.png",
     alt: "SKYOCEAN Premium Drinking Water",
   },
 ];
