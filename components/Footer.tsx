@@ -93,7 +93,8 @@ export default function Footer() {
                 SKYOCEAN Packaged Drinking Water
                 <br />
                 Ghargaon (Wakdi), Tal. Kallamb, 
-                Dist. Dharashiv - 413507 Maharashtra, India
+                Dist. Dharashiv - 413507 
+                Maharashtra, India
                 
                 
                 <br />
