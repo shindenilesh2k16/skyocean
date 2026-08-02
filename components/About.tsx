@@ -28,7 +28,7 @@ export default function About() {
           {/* Left - Image */}
           <div className="relative overflow-hidden rounded-3xl border-4 border-sky-500 shadow-xl">
             <img
-              src="/Aboutus.jpg"
+              src="/Aboutus.png"
               alt="SKYOCEAN Pure Water"
               className="h-[560px] w-full object-cover rounded-3xl shadow-2xl transition duration-500 hover:scale-[1.02]"
             />
