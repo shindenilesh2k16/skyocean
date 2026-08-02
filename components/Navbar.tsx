@@ -30,11 +30,11 @@ export default function Navbar() {
             </a>
 
             <a
-              href="mailto:sudhir.shinde@skyoceans.com"
+              href="mailto:sudhirshinde@skyoceans.com"
               className="flex items-center gap-2 hover:text-yellow-300"
             >
               <FiMail />
-              sudhir.shinde@skyoceans.com
+              sudhirshinde@skyoceans.com
             </a>
           </div>
 
