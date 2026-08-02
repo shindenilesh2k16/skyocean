@@ -92,11 +92,12 @@ export default function Footer() {
                 <br />
                 SKYOCEAN Packaged Drinking Water
                 <br />
-                Ghargaon (Wakdi), Tal. Kallamb, Dist. Dharashiv - 413507
+                Ghargaon (Wakdi), Tal. Kallamb, 
+                Dist. Dharashiv - 413507 Maharashtra, India
                 
                 
                 <br />
-                Maharashtra, India
+                
               </p>
 
             </div>
