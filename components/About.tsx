@@ -66,17 +66,14 @@ export default function About() {
             </h3>
 
             <p className="mt-5 text-lg leading-8 text-gray-600">
-              At SKYOCEAN, we believe that pure and safe drinking
-              water is essential for a healthy life. Our focus is on
-              delivering high-quality packaged drinking water while
-              maintaining strict standards of hygiene, purity and
-              safety.
+              At SKYOCEAN, we are committed to providing pure, safe, 
+              and high-quality drinking water. Every bottle undergoes 
+              rigorous purification and quality checks to ensure hygiene and freshness.
             </p>
 
             <p className="mt-5 text-lg leading-8 text-gray-600">
-              From our plant to your hands, every bottle goes through
-              carefully controlled purification and quality processes
-              to ensure a refreshing and reliable drinking experience.
+              We maintain strict standards at every stage of production to deliver water you can trust. 
+              Our goal is to promote healthy hydration with every sip.
             </p>
 
             {/* Stats */}
