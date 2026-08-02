@@ -74,7 +74,7 @@ export default function Footer() {
                   Phone:
                 </span>
                 <br />
-                +91 9922401104
+                +91 8080177676
               </p>
 
               <p>
@@ -92,8 +92,8 @@ export default function Footer() {
                 <br />
                 SKYOCEAN Packaged Drinking Water
                 <br />
-                Plot No.45, Aqua Industrial Park, Ghargaon
-                Dharashiv - 413528
+                Ghargaon (Wakdi), Tal. Kallamb, Dist. Dharashiv - 413507
+                
                 
                 <br />
                 Maharashtra, India

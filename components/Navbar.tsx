@@ -22,11 +22,11 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 py-2 flex flex-col md:flex-row justify-between items-center gap-2">
           <div className="flex items-center gap-6">
             <a
-              href="tel:+919922401104"
+              href="tel:+918080177676"
               className="flex items-center gap-2 hover:text-yellow-300"
             >
               <FiPhone />
-              +91 9922401104
+              +91 8080177676
             </a>
 
             <a
